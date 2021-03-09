@@ -1,6 +1,7 @@
 import java.util.*;
 
 public class LogEntry {
+    //Read IP address, access time, request, status code and bytes returned
 
     private String ipAddress;
     private Date accessTime;
