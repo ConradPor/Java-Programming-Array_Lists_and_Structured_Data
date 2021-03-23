@@ -27,7 +27,7 @@ public class TestCaesarCipher {
         return max;
     }
 
-    //This method call maxIndex and decrypt method from caesar cipher class and print decrypted key and massage.
+    //This method call maxIndex and decrypt method from caesar cipher class and print decrypted key and message.
 
     public void breakCaesarCipher(String input) {
         int [] freqs = countLetters(input);
