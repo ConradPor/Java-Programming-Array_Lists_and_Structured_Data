@@ -92,7 +92,7 @@ public class CaesarCipher {
         return encrypted.toString();
     }
 
-    // Test method to check encrypt method
+    // Test method to check Caesar Cipher
     public void testCaesar() {
         int key = 23;
         FileResource fr = new FileResource();
@@ -101,7 +101,7 @@ public class CaesarCipher {
         System.out.println("Key is: "+ key+"\n"+encrypted);
     }
 
-    // Method to check encryptTwoKeys method
+    // Method to check Caesar Cipher with two keys.
     public void testEncryptTwoKeys() {
         int key1 = 10;
         int key2 = 7;

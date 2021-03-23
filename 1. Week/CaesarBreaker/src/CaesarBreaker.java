@@ -79,7 +79,9 @@ public class CaesarBreaker {
         return dkey;
     }
 
-    public void testDecrypt (){
+    //Method checking code to decryption message.
+
+    public void testDecrypt(){
         FileResource fr = new FileResource();
         String message = fr.asString();
         int dke = getKey(message);
@@ -87,7 +89,9 @@ public class CaesarBreaker {
         System.out.println("Key is: "+ dke+ "\nDekrypted massage: "+ dec);
     }
 
-    public void testDecryptTwoKeys () {
+    //Method checking code to decryption message with two keys.
+
+    public void testDecryptTwoKeys() {
         FileResource fr = new FileResource();
         String message = fr.asString();
         String dec = decryptTwoKeys(message);
