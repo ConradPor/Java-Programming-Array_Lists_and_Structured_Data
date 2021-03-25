@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/WordFrequenicies.iml" filepath="$PROJECT_DIR$/WordFrequenicies.iml" />
+      <module fileurl="file://$PROJECT_DIR$/GladLib.iml" filepath="$PROJECT_DIR$/GladLib.iml" />
     </modules>
   </component>
 </project>
