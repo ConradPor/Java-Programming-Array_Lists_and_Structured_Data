@@ -100,7 +100,6 @@ public class WordsInFiles {
             printFilesIn(word);
             System.out.println();
         }
-        // Add method to write number of chose files!!!!
         int winf = 2; //Write number of words which occur in files
         System.out.println("Total words in  files = " + wordsInNumFiles(winf).size());
         System.out.println();
