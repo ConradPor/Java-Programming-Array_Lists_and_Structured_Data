@@ -7,6 +7,7 @@ import java.util.*;
 import java.lang.*;
 import java.io.*;
 
+
 public class WordsInFiles {
 
     private HashMap<String,ArrayList<String>> mapWord;
@@ -87,6 +88,8 @@ public class WordsInFiles {
 
     }
 
+
+
     public void test(){
         buildWordFileMap();
         int maximum = maxNumber();
@@ -97,17 +100,21 @@ public class WordsInFiles {
             printFilesIn(word);
             System.out.println();
         }
-        System.out.println("Total words in 4 files = " + wordsInNumFiles(3).size());
+        // Add method to write number of chose files!!!!
+        int winf = 2; //Write number of words which occur in files
+        System.out.println("Total words in  files = " + wordsInNumFiles(winf).size());
         System.out.println();
-        String wf = "funny";
+        String wf = "funny"; //Write what word you are looking for
         System.out.println("The file or files where occur the word: '"+ wf+"' is/are: ");
         printFilesIn(wf);
     }
 
 
+
+
     public static void main(String[] args) {
         WordsInFiles wif = new WordsInFiles();
         wif.test();
-        //wif.printFilesIn("funny");
+
     }
 }

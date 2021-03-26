@@ -148,7 +148,7 @@ public class GladLib {
         return story;
     }
 
-    //Method read data from text file or URL and store in ArrayLis
+    //Method read data from text file or URL and store in ArrayList
 
     private ArrayList<String> readIt(String source){
         ArrayList<String> list = new ArrayList<String>();
