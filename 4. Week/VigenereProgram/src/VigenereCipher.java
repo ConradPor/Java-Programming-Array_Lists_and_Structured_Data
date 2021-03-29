@@ -1,6 +1,7 @@
 import java.util.*;
 
 public class VigenereCipher {
+
     CaesarCipher[] ciphers;
 
     public VigenereCipher(int[] key) {

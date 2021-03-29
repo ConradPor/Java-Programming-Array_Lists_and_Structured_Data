@@ -25,7 +25,6 @@ public class CaesarCracker {
     }
 
     public int maxIndex(int[] vals){
-        // vals cannot be null since it isn't an object.
         int maxDex = 0;
         for(int k=0; k < vals.length; k++){
             if (vals[k] > vals[maxDex]){
