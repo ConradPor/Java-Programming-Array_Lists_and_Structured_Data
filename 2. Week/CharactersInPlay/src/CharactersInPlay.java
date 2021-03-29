@@ -10,8 +10,7 @@ public class CharactersInPlay {
         this.characters = new ArrayList<String>();
         this.parts = new ArrayList<Integer>();
     }
-
-
+    
     //This method should update the two ArrayLists, adding the character’s name if it is not already there,
     //and counting this line as one speaking part for this person.
 
